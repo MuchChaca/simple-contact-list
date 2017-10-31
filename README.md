@@ -13,9 +13,9 @@
 - [ ] Replace the maker.sh by docker (container + images ready for production and development)
 
 ## Build
-> ``git clone https://github.com/MuchChaca/simple-contact-list.git``
-> ``cd simple-contact-list``
-> ``docker/maker.sh``
+> ``git clone https://github.com/MuchChaca/simple-contact-list.git``  
+> ``cd simple-contact-list``  
+> ``docker/maker.sh``  
 > *The contact list will be started on http://localhost:8080*
 -----------------------------
 
