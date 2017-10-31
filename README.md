@@ -1,7 +1,7 @@
 # Simple-Contact-List
 ## The app
-* **About** A simple app with a backend written in go and a frontend written in vuejs.
-* **Purpose** Experimenting how go interacts with vuejs
+* **About : ** A simple app with a backend written in go and a frontend written in vuejs.
+* **Purpose : ** Experimenting how go interacts with vuejs
 
 ## List of experiments
 - [x] Make go send JSON data to vuejs
@@ -12,6 +12,11 @@
 - [ ] Make it work with JWT (+middlewares)
 - [ ] Replace the maker.sh by docker (container + images ready for production and development)
 
+## Build
+> ``git clone https://github.com/MuchChaca/simple-contact-list.git``
+> ``cd simple-contact-list``
+> ``docker/maker.sh``
+> *The contact list will be started on http://localhost:8080*
 -----------------------------
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="300px"/>
