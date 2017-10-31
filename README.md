@@ -14,5 +14,5 @@
 -----------------------------
 
 ![Golang](https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg =250x)
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" style="width: 20px;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="20px"/>
 ![Vue.Js](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/1000px-Vue.js_Logo.svg.png =250x)
