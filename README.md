@@ -16,7 +16,10 @@
 > ``git clone https://github.com/MuchChaca/simple-contact-list.git``  
 > ``cd simple-contact-list``  
 > ``docker/maker.sh``  
-> *The contact list will be started on http://localhost:8080*
+> *The contact list will be started on http://localhost:8080*  
+
+## Screenshot
+![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
 -----------------------------
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="300px"/>

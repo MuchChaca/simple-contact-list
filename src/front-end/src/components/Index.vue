@@ -45,7 +45,7 @@
 
           <div v-if="modContact.index" class="modContact">
             <div class="input-group">
-                <h3>Modify a contact <button class="btn btn-xs btn-default" v-on:click="unsetModContact">
+                <h3>Edit a contact <button class="btn btn-xs btn-default" v-on:click="unsetModContact">
                     <i class="fa fa-times" aria-hidden="true"></i>
                   </button></h3>
               <div class="input-list">
@@ -248,7 +248,7 @@ button.btn.btn-xs.btn-info {
   vertical-align: middle;
   color: red;
   position: absolute;
-  margin-left: 5%;
+  margin-left: 9.5%;
 }
 
 h3 {
