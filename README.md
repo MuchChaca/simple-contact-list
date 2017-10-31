@@ -20,6 +20,7 @@
 
 ## Screenshot
 ![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
+
 -----------------------------
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="300px"/>
