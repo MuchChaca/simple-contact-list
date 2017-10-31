@@ -8,11 +8,11 @@
 - [x] Fetch JSON data from go with vuejs
 - [x] Send JSON data from vuejs to go
 - [x] Have CRUD working
+- [x] Practice some markdown :+1
 - [ ] Make it work with JWT (+middlewares)
 - [ ] Replace the maker.sh by docker (container + images ready for production and development)
 
 -----------------------------
 
-![Golang](https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg =250x)
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="200px"/>
-![Vue.Js](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/1000px-Vue.js_Logo.svg.png =250x)
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="300px"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/1000px-Vue.js_Logo.svg.png" alt="Vuejs" width="300px"/>
