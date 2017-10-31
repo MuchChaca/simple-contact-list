@@ -8,7 +8,7 @@
 - [x] Fetch JSON data from go with vuejs
 - [x] Send JSON data from vuejs to go
 - [x] Have CRUD working
-- [x] Practice some markdown :+1
+- [x] Practice some markdown :+1:
 - [ ] Make it work with JWT (+middlewares)
 - [ ] Replace the maker.sh by docker (container + images ready for production and development)
 
@@ -21,6 +21,9 @@
 
 ## Screenshot
 ![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
+
+## Contribution status
+No contribution required. 
 
 -----------------------------
 
