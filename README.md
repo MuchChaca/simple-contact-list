@@ -11,6 +11,7 @@
 - [x] Practice some markdown :+1:
 - [ ] Make it work with JWT (+middlewares)
 - [ ] Replace the maker.sh by docker (container + images ready for production and development)
+- [x] SSH connection (kinda out of context here but still)
 
 ## Build
 > ``git clone https://github.com/MuchChaca/simple-contact-list.git``  
