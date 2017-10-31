@@ -1,7 +1,7 @@
 # Simple-Contact-List
 ## The app
-* **About : ** A simple app with a backend written in go and a frontend written in vuejs.
-* **Purpose : ** Experimenting how go interacts with vuejs
+* **About:** A simple app with a backend written in go and a frontend written in vuejs.
+* **Purpose:** Experimenting how go interacts with vuejs
 
 ## List of experiments
 - [x] Make go send JSON data to vuejs
@@ -22,6 +22,7 @@
 ![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
 
 -----------------------------
+
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="300px"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/1000px-Vue.js_Logo.svg.png" alt="Vuejs" width="300px"/>
