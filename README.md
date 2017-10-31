@@ -15,7 +15,7 @@
 ## Build
 > ``git clone https://github.com/MuchChaca/simple-contact-list.git``  
 > ``cd simple-contact-list``  
-> **Install the MySQL database from the db directory (create database included)**  
+> Install the MySQL database from the db directory (create database included) and adapt the alpha.go according to your databse setup  
 > ``docker/maker.sh``  
 > *The contact list will be started on http://localhost:8080*  
 
