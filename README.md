@@ -23,6 +23,6 @@
 
 -----------------------------
 
-
+@echo  
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Gophercolor.jpg" alt="Golang" width="300px"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vue.js_Logo.svg/1000px-Vue.js_Logo.svg.png" alt="Vuejs" width="300px"/>
