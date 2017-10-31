@@ -22,8 +22,10 @@
 ## Screenshot
 ![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
 
-## Contribution status
-No contribution required. 
+## Status
+* **Contribution:** No contribution :no_entry_sign:  
+* **Activity:** Active :large_blue_circle:  
+* **Evolution:** Not finished :construction:  
 
 -----------------------------
 
