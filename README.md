@@ -14,6 +14,7 @@
 - [x] SSH connection (kinda out of context here but still)
 - [ ] Deploy a go + vuejs app without Docker
 - [ ] Deploy a go + vuejs app with Docker
+- [ ] Test a go + vuejs app on heroku
 
 ## Build
 > ``git clone https://github.com/MuchChaca/simple-contact-list.git``  

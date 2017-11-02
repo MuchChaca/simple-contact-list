@@ -3,6 +3,8 @@ version: '2.1'
 services:
   simple-contact-list:
     image: simple-contact-list
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 8080:8080
+        - 8080:8080
