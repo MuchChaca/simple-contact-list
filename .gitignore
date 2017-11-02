@@ -4,16 +4,11 @@ src/front-end/npm-debug.log*
 src/front-end/yarn-debug.log*
 src/front-end/yarn-error.log*
 
-src/front-end/# Editor directories and files
+src/front-end/
+# Editor directories and files
 src/front-end/.idea
 src/front-end/.vscode
 src/front-end/*.suo
 src/front-end/*.ntvs*
 src/front-end/*.njsproj
 src/front-end/*.sln
-
-docker/.dockerignore
-docker/docker-compose.debug.yml
-docker/docker-compose.yml
-docker/Dockerfile-go
-docker/Dockerfile

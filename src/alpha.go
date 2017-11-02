@@ -4,6 +4,7 @@ import (
 	"database/sql"
 
 	"github.com/MuchChaca/Training/simple-contact-list/src/handlers"
+	"github.com/MuchChaca/Training/simple-contact-list/src/models"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/labstack/echo"

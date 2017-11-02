@@ -45,6 +45,7 @@ func ModContact(db *sql.DB) echo.HandlerFunc {
 	return func(c echo.Context) error {
 		// Instantiate a new contact
 		contact := models.Contact{}
+
 		// Map incoming JSON body to the new contact
 		// TODO: Replace bind with a more efficient method
 		c.Bind(&contact)
