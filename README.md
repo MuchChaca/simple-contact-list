@@ -16,6 +16,15 @@
 - [ ] Deploy a go + vuejs app with Docker
 - [ ] Test a go + vuejs app on heroku
 
+## Dependencies
+* **GO:** (https://golang.org/)
+* **MySQL for go:** (github.com/go-sql-driver/mysql)
+* **Echo:** (https://echo.labstack.com/)
+* **Echo - Middlewares:** (https://echo.labstack.com/middleware)
+* **NPM:** (https://www.npmjs.com/)
+* **Vue.Js** (https://vuejs.org/)
+* **Axios:** (https://www.npmjs.com/package/axios)
+
 ## Build
 > ``git clone https://github.com/MuchChaca/simple-contact-list.git``  
 > ``cd simple-contact-list``  
