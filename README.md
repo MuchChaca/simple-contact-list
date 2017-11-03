@@ -14,7 +14,12 @@
 - [x] SSH connection (kinda out of context here but still)
 - [ ] Deploy a go + vuejs app without Docker
 - [ ] Deploy a go + vuejs app with Docker
-- [ ] Test a go + vuejs app on heroku
+- [ ] Test a go + vuejs app on heroku  
+
+## Status
+* **Contribution:** No contribution :no_entry_sign:  
+* **Activity:** Active :large_blue_circle:  
+* **Evolution:** Not finished :construction:  
 
 ## Dependencies
 * **GO:** (https://golang.org/)
@@ -36,10 +41,6 @@
 ## Screenshot
 ![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
 
-## Status
-* **Contribution:** No contribution :no_entry_sign:  
-* **Activity:** Active :large_blue_circle:  
-* **Evolution:** Not finished :construction:  
 
 -----------------------------
 
