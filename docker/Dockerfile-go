@@ -1,13 +1,32 @@
-
-# golang:onbuild automatically copies the package source, 
-# fetches the application dependencies, builds the program, 
-# and configures it to run on startup 
 FROM golang:1.9.2-alpine3.6
 
 LABEL Name=simple-contact-list Version=0.0.1 
 
+# Add some packages
+RUN apk add --no-cache git bash
 
+# Add the source code
+ADD ../ /go/src/github.com/MuchChaca/Training/simple-contact-list
 
+ENV oldGoBin ${GOBIN}
+ENV GOBIN /go/src/github.com/MuchChaca/Training/simple-contact-list/bin
+
+WORKDIR /go/src/github.com/MuchChaca/Training/simple-contact-list/src
+RUN go install
+
+# Go dependencies
+# echo
+RUN go get -u https://github.com/labstack/echo
+RUN go get -u https://github.com/go-sql-driver/mysql
+
+# Set the GOBIN to the old one
+ENV GOBIN ${oldGoBin}}
+
+# Prepare to start the binary file
+WORKDIR /go/src/github.com/MuchChaca/Training/simple-contact-list/bin
+CMD [ "./alpha" ]
+
+# Exposing port 8080
 EXPOSE 8080
 
 # For more control, you can copy and build manually

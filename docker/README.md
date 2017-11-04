@@ -13,11 +13,11 @@ Docker is going to help for that.
 ***The use of this "Docker environment" will be there as soon as it will be done.*** 
 
 ## Ressources
-* [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/) 
-* [MySQL](https://hub.docker.com/_/mysql/) 
-* [Alpine](https://hub.docker.com/_/alpine/)
-* [Go](https://hub.docker.com/_/golang/) 
-* [Node (for npm)](https://hub.docker.com/_/node/)
+* [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/) (documentation)
+* [MySQL](https://hub.docker.com/_/mysql/) (docker hub)
+* [Alpine](https://hub.docker.com/_/alpine/) (docker hub)
+* [Go](https://hub.docker.com/_/golang/) (docker hub)
+* [Node (for npm)](https://hub.docker.com/_/node/) (docker hub)
 
 --------------
 
