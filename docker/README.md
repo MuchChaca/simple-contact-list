@@ -6,11 +6,18 @@ It sure helps and prevents from having to build the front, reposition it, change
 Docker is going to help for that.  
 
 ## Goal
-* Make a dynamic dev environment with Docker, meaning that all changes made in backend/frontend will be dynamicly shown at save.
-* Have an easy way to deploy
+- [ ] Make a dynamic dev environment with Docker, meaning that all changes made in backend/frontend will be dynamicly shown at save.
+- [ ] Have an easy way to deploy
 
 ## Use
-***The use of this "Docker environment" will be there as soon as it will be done.***  
+***The use of this "Docker environment" will be there as soon as it will be done.*** 
+
+## Ressources
+* [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/) 
+* [MySQL](https://hub.docker.com/_/mysql/) 
+* [Alpine](https://hub.docker.com/_/alpine/)
+* [Go](https://hub.docker.com/_/golang/) 
+* [Node (for npm)](https://hub.docker.com/_/node/)
 
 --------------
 

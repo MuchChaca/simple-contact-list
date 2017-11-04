@@ -16,7 +16,10 @@ services:
       MYSQL_DATABASE: go_training_contactList
     ports:
       - 3306:3306
-  
-  
-volumes:
-  db_data:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile-vue
+# # Do I need to do that?
+# volumes:
+#   db_data:
