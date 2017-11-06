@@ -2,22 +2,25 @@ version: '3.1'
 
 services:
   db:
-    image: mysql:latest
+    image: mariadb:latest # //* Need to use mariaDB image, mysql image is deprecated
     volumes:
-      - "/var/lib/mysql/go_training_contactList:/var/lib/mysql/" # //! Here, the docker image can't access it (root owns it)
+      - "/var/lib/mysql/go_training_contactList:/var/lib/mysql/"
       # - "./src/db/go_training_contactList_20171031_085331.sql:/docker-entrypoint-initdb.d/"
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      # MYSQL_DATABASE: go_training_contactList
+      # MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: go_training_contactList
+    ports:
+      - 3306:3306
   simple-contact-list:
+      restart: always
       image: simple-contact-list
       build:
         context: .
         dockerfile: Dockerfile
       ports:
         - 8080:8080
-      links:
+      depends_on:
         - db
   frontend:
     build:

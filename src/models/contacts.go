@@ -42,7 +42,7 @@ func Migrate(db *sql.DB) {
 	_, err := db.Exec(sql)
 	// exit if something goes wrong
 	if err != nil {
-		panic(err)
+		log.Panic("Migration:", err)
 	}
 }
 
