@@ -5,19 +5,25 @@ LABEL Name=simple-contact-list Version=0.0.1
 # Add some packages
 RUN apk add --no-cache git bash
 
+# Making directories
+RUN mkdir -p /go/src/github.com/MuchChaca/Training/simple-contact-list/bin
+RUN mkdir -p /go/src/github.com/MuchChaca/Training/simple-contact-list/src
 # Add the source code
-ADD ../ /go/src/github.com/MuchChaca/Training/simple-contact-list
+ADD src/. /go/src/github.com/MuchChaca/Training/simple-contact-list/src
 
+# Go dependencies
+# echo
+RUN go get -u github.com/labstack/echo
+RUN go get -u github.com/go-sql-driver/mysql
+RUN go get -u github.com/dgrijalva/jwt-go
+
+# GOBIN
 ENV oldGoBin ${GOBIN}
 ENV GOBIN /go/src/github.com/MuchChaca/Training/simple-contact-list/bin
 
 WORKDIR /go/src/github.com/MuchChaca/Training/simple-contact-list/src
-RUN go install
+RUN go install alpha.go
 
-# Go dependencies
-# echo
-RUN go get -u https://github.com/labstack/echo
-RUN go get -u https://github.com/go-sql-driver/mysql
 
 # Set the GOBIN to the old one
 ENV GOBIN ${oldGoBin}}

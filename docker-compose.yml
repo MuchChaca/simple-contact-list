@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql:latest
+    volumes:
+      - "/var/lib/mysql/go_training_contactList:/var/lib/mysql/" # //! Here, the docker image can't access it (root owns it)
+      # - "./src/db/go_training_contactList_20171031_085331.sql:/docker-entrypoint-initdb.d/"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      # MYSQL_DATABASE: go_training_contactList
+  simple-contact-list:
+      image: simple-contact-list
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - 8080:8080
+      links:
+        - db
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile-vue
+    links:
+      - simple-contact-list
+
+
+# # Do I need to do that?
+# volumes:
+#   db_data:

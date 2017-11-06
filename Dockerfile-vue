@@ -3,10 +3,10 @@ FROM node:9.0.0-alpine
 # Vue & vue-cli
 RUN npm install --global vue vue-cli
 # axios
-RUN npm install --global axios
+# RUN npm install --global axios
 
 # Add the frontend to the project
-ADD ../src/front-end /go/src/github.com/MuchChaca/Training/simple-contact-list/src/front-end
+ADD src/front-end /go/src/github.com/MuchChaca/Training/simple-contact-list/src/front-end
 # Set the WORKDIR
 WORKDIR /go/src/github.com/MuchChaca/Training/simple-contact-list/src/front-end
 # Install dependencies
@@ -18,4 +18,6 @@ RUN npm run build
 # RUN mkdir ../../public
 
 # Put the built frontend in the public directory
-RUN cp dist/* ../../public
+RUN rm -rf ../../public/*
+RUN ls
+RUN cp -r --parents dist/* ../../public/
