@@ -37,7 +37,7 @@ func main() {
 
 // initialise the db connecction
 func connectDB(filepath string) *sql.DB {
-	db, err := sql.Open("mysql", "root:@tcp(database:9797)/go_training_contactList") //? think we need the ip of the mysql container here
+	db, err := sql.Open("mysql", "list:contact@tcp(database:9797)/go_training_contactList") //? think we need the ip of the mysql container here
 
 	// If any error on db then exit
 	if err != nil {

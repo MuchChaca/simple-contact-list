@@ -9,6 +9,8 @@ services:
     restart: always
     environment:
       # MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: list
+      MYSQL_PASSWORD: contact
       MYSQL_DATABASE: go_training_contactList
     ports:
       - 9797:3306
