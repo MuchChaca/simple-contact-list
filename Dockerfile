@@ -35,6 +35,8 @@ CMD [ "./alpha" ]
 # Exposing port 8080
 EXPOSE 8080
 
+RUN echo $DB_HOST
+
 # For more control, you can copy and build manually
 # FROM golang:latest 
 # LABEL Name=simple-contact-list Version=0.0.1 

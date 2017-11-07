@@ -11,7 +11,7 @@ services:
       # MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: go_training_contactList
     ports:
-      - 3306:3306
+      - 9797:3306
   simple-contact-list:
       restart: always
       image: simple-contact-list
@@ -20,16 +20,15 @@ services:
         dockerfile: Dockerfile
       ports:
         - 8080:8080
-      depends_on:
+      links:
         - db
+        - db:database
   frontend:
     build:
       context: .
       dockerfile: Dockerfile-vue
     links:
       - simple-contact-list
-
-
 # # Do I need to do that?
 # volumes:
 #   db_data:
