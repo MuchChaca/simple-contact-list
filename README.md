@@ -23,12 +23,13 @@
 
 ## Dependencies
 * **GO:** (https://golang.org/)
-* **MySQL for go:** (github.com/go-sql-driver/mysql)
+* **MySQL for go:** (https://github.com/go-sql-driver/mysql)
 * **Echo:** (https://echo.labstack.com/)
 * **Echo - Middlewares:** (https://echo.labstack.com/middleware)
 * **NPM:** (https://www.npmjs.com/)
 * **Vue.Js** (https://vuejs.org/)
 * **Axios:** (https://www.npmjs.com/package/axios)
+* **JWT:** (https://github.com/dgrijalva/jwt-go)
 
 ## Build
 > ``git clone https://github.com/MuchChaca/simple-contact-list.git``  
@@ -40,6 +41,26 @@
 
 ## Screenshot
 ![simple-contact-list](https://image.ibb.co/cbnhNb/simple_contact_list_screen.png)  
+
+## Emoji's commit legend
+* :art: when improving the format/structure of the code
+* :rocket: when improving performance
+* :sweat_drops: plugging memory leaks
+* :memo: when writing docs
+* :penguin: when fixing something on Linux
+* :apple: when fixing something on Mac OS
+* :computer: when fixing something on Windows
+* :name_badge: when fixing a bug
+* :exclamation: when a bug is spotted
+* :fire: `:fire:` when removing code or files
+* :black_medium_small_square: when fixing the CI build
+* :white_check_mark: `:white_check_mark:` when adding tests
+* :lock: `:lock:` when dealing with security
+* :arrow_up: `:arrow_up:` when upgrading dependencies
+* :arrow_down: `:arrow_down:` when downgrading dependencies
+* :shirt: `:shirt:` when removing linter warnings
+* :construction: when rebuilding something
+* :octocat: when changing something about git/github
 
 
 -----------------------------
