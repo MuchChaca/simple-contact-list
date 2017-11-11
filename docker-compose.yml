@@ -3,9 +3,6 @@ version: '3.1'
 services:
   db:
     image: mariadb:latest # //* Need to use mariaDB image, mysql image is deprecated
-    volumes:
-      - "/var/lib/mysql/go_training_contactList:/var/lib/mysql/"
-      # - "./src/db/go_training_contactList_20171031_085331.sql:/docker-entrypoint-initdb.d/"
     restart: always
     environment:
       # MYSQL_ROOT_PASSWORD: root
