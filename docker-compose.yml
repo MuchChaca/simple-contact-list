@@ -5,7 +5,7 @@ services:
     image: mariadb:latest # //* Need to use mariaDB image, mysql image is deprecated
     restart: always
     environment:
-      # MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: list
       MYSQL_PASSWORD: contact
       MYSQL_DATABASE: go_training_contactList
