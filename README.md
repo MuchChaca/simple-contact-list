@@ -28,8 +28,8 @@
 
 ## Status
 * **Contribution:** No contribution :no_entry_sign:  
-* **Activity:** Active :large_blue_circle:  
-* **Evolution:** Not finished :construction:  
+* **Activity:** Dead :large_red_circle:  
+* **Evolution:** Abandoned for now 
 
 -----------------------------
 
