@@ -28,7 +28,7 @@
 
 ## Status
 * **Contribution:** No contribution :no_entry_sign:  
-* **Activity:** Dead :large_red_circle:  
+* **Activity:** Dead :red_circle:  
 * **Evolution:** Abandoned for now 
 
 -----------------------------
